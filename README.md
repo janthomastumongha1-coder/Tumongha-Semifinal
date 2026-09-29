@@ -7,6 +7,9 @@ A dark-themed **Task Manager web application** for riders, built with **PHP (PDO
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
 ![PDO](https://img.shields.io/badge/Database-PDO-orange)
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c6207994-ac69-43d4-ab63-e9e2150a5a1b" />
+
+
 ---
 
 ## ✨ Features
@@ -22,7 +25,7 @@ A dark-themed **Task Manager web application** for riders, built with **PHP (PDO
 
 ## 🗂️ Project Structure
 
-```
+```javascript
 jan thomas/
 ├── index.php              # Main dashboard (task table, toggle, delete)
 ├── add.php                # Add new task form
@@ -45,11 +48,13 @@ jan thomas/
 ## 🛠️ Requirements
 
 ### Classic PHP Version
+
 - **PHP** >= 8.0 (tested on PHP 8.1)
 - **MySQL** / MariaDB
 - **XAMPP** / WAMP / Laragon
 
 ### Laravel Version
+
 - **PHP** >= 8.1
 - **Composer**
 - **Node.js** & **NPM** (for Vite)
@@ -63,7 +68,7 @@ jan thomas/
 
 Place the folder inside your web server directory:
 
-```
+```javascript
 C:\xampp\htdocs\jan-thomas
 ```
 
@@ -115,7 +120,7 @@ try {
 1. Start **Apache** and **MySQL** in the XAMPP Control Panel
 2. Open your browser and visit:
 
-```
+```javascript
 http://localhost/jan-thomas/index.php
 ```
 
@@ -291,7 +296,7 @@ Visit: `http://localhost:8000/tasks`
 ## 📖 Usage
 
 | Action | How |
-|--------|-----|
+| --- | --- |
 | ➕ Add task | Open `add.php`, fill in the form, click **Add Task** |
 | ✏️ Edit task | Click **Edit** on any row |
 | ✅ Complete / Pending | Click the toggle button on any row |
@@ -302,7 +307,7 @@ Visit: `http://localhost:8000/tasks`
 ## 🧩 Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+| --- | --- |
 | Backend (Classic) | PHP 8.x (PDO, prepared statements) |
 | Backend (Laravel) | Laravel 10.x (MVC, Eloquent ORM) |
 | Database | MySQL / MariaDB |
